@@ -1,0 +1,32 @@
+section.body {
+  padding: 0 8rem;
+  transform: translateY(-5rem);
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.body__compositions {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.compositions__item {
+  position: relative;
+}
+
+.compositions__item img {
+  border-radius: 5px;
+}
+
+.item__text {
+  position: absolute;
+  left: 0;
+  color: var(--white-color);
+  font-size: 25px;
+  font-weight: 450;
+  line-height: 30px;
+  left: 1.25rem;
+  bottom: 0.625rem;
+}

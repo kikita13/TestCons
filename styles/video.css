@@ -1,0 +1,24 @@
+section.video {
+  margin-top: 4.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.video__text {
+  max-width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 3.5rem;
+}
+
+.video__content {
+  position: relative;
+}
+
+img.play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

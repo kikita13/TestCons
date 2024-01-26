@@ -1,0 +1,71 @@
+.nav__header {
+  display: flex;
+  background-color: var(--white-color);
+  height: 54px;
+  position: relative;
+  align-items: center;
+}
+
+.header__menu {
+  margin-left: 0.7rem;
+  cursor: pointer;
+}
+
+.empty {
+  flex-grow: 1;
+}
+
+.header__logo {
+  position: absolute;
+  right: 50%;
+}
+
+.header__call {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--main-color);
+}
+
+.header__call a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header__lang {
+  height: 100%;
+  margin-left: 40px;
+  width: 100px;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--white-color);
+  align-items: center;
+}
+
+.header__lang button {
+  width: 50%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  color: var(--white-main-color);
+  font-size: 16px;
+}
+
+.header__lang .active {
+  color: var(--white-color);
+}
+
+.sub__item:hover {
+  cursor: pointer;
+  color: var(--white-color);
+}
+
+.sub__item {
+  color: var(--main-color);
+  transition: .3s;
+}

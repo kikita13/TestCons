@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+:root {
+  --main-color: #156a75;
+  --secondary-color: #4b949e;
+  --white-main-color: #94c2bd;
+  --whitest-main-color: #D4E4D9;
+  --black-color: #121212;
+  --white-color: #ffffff;
+  --gray-color: #f6f6f6;
+  --dark-gray-color: #545454;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+* {
+  color: var(--main-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+.primary-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  gap: 10px;
+  background-color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  border: none;
+  transition: 0.3s all ease-in;
+  color: var(--white-color);
+}
+
+.primary-button:hover {
+  background-color: var(--main-color);
+}
+
+.primary-input {
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: var(--dark-gray-color);
+  font-size: 16px;
+  font-weight: 400;
+  background-color: var(--white-color);
+  border: none;
+}
+
+.primary-input:focus-within {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  border-bottom-color: inherit;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}

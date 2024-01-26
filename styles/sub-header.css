@@ -1,0 +1,14 @@
+.nav__sub {
+  height: 42px;
+  background-color: var(--white-main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.sub__item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
